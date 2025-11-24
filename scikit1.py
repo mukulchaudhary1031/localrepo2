@@ -39,7 +39,7 @@ predictions = model.predict(X_test)
 # 5) Print Results
 # ------------------------------
 print("Test Data (Area):")
-print(X_test.values)
+print(X_test)
 
 print("\nActual Prices:", y_test.values)
 print("Predicted Prices:", predictions)
